@@ -1,0 +1,4 @@
+..\..\Generic\DVDISO\DVDISO.cpp(8): Warning! W726: col(1) no reference to formal parameter 'Data'
+..\..\Generic\DVDISO\DVDISO.cpp(4): Note! N392: col(28) definition: 'char * Data' in 'void * ParseDVDImage( char *, int )'
+..\..\Generic\DVDISO\DVDISO.cpp(8): Warning! W726: col(1) no reference to formal parameter 'Size'
+..\..\Generic\DVDISO\DVDISO.cpp(4): Note! N392: col(38) definition: 'int Size' in 'void * ParseDVDImage( char *, int )'

@@ -1,0 +1,12 @@
+..\..\Eng_Both\RAW\PlainDir.cpp(105): Warning! W128: col(48) initializer for variable 'B' cannot be bypassed
+..\..\Eng_Both\RAW\PlainDir.cpp(89): Note! N392: col(37) definition: 'int B' in 'int Plain_Files_Directory_As_Virtual_Archive_dummy_access_Inner_Functions::ReadFile( Archive *, std::fstream * )'
+..\..\Eng_Both\RAW\PlainDir.cpp(106): Warning! W128: col(54) initializer for variable 'B' cannot be bypassed
+..\..\Eng_Both\RAW\PlainDir.cpp(89): Note! N392: col(37) definition: 'int B' in 'int Plain_Files_Directory_As_Virtual_Archive_dummy_access_Inner_Functions::ReadFile( Archive *, std::fstream * )'
+..\..\Eng_Both\RAW\PlainDir.cpp(108): Warning! W128: col(33) initializer for variable 'B' cannot be bypassed
+..\..\Eng_Both\RAW\PlainDir.cpp(89): Note! N392: col(37) definition: 'int B' in 'int Plain_Files_Directory_As_Virtual_Archive_dummy_access_Inner_Functions::ReadFile( Archive *, std::fstream * )'
+..\..\Eng_Both\RAW\PlainDir.cpp(113): Warning! W013: col(9) unreachable code
+..\..\Eng_Both\RAW\PlainDir.cpp(133): Warning! W391: col(21) assignment found in boolean expression
+..\..\Eng_Both\RAW\PlainDir.cpp(153): Warning! W391: col(49) assignment found in boolean expression
+..\..\Eng_Both\RAW\PlainDir.cpp(178): Warning! W391: col(37) assignment found in boolean expression
+..\..\Eng_Both\RAW\PlainDir.cpp(180): Warning! W391: col(39) assignment found in boolean expression
+..\..\Eng_Both\RAW\PlainDir.cpp(240): Warning! W869: col(22) use of '_beginthread' requires build target to be multi-threaded

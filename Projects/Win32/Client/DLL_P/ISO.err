@@ -1,0 +1,4 @@
+..\ISO\ISO.cpp(48): Warning! W726: col(1) no reference to formal parameter 'Data'
+..\ISO\ISO.cpp(41): Note! N392: col(29) definition: 'char * Data' in 'void * ParseISOData( char *, int )'
+..\ISO\ISO.cpp(48): Warning! W726: col(1) no reference to formal parameter 'Size'
+..\ISO\ISO.cpp(41): Note! N392: col(39) definition: 'int Size' in 'void * ParseISOData( char *, int )'

@@ -1,0 +1,4 @@
+..\TAR\Tarball.cpp(39): Warning! W726: col(1) no reference to formal parameter 'Data'
+..\TAR\Tarball.cpp(35): Note! N392: col(29) definition: 'char * Data' in 'void * ParseTarData( char *, int )'
+..\TAR\Tarball.cpp(39): Warning! W726: col(1) no reference to formal parameter 'Size'
+..\TAR\Tarball.cpp(35): Note! N392: col(39) definition: 'int Size' in 'void * ParseTarData( char *, int )'

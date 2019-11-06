@@ -1,0 +1,41 @@
+!define BLANK ""
+c:\Dev\Dev_Soft\UnpLibr\Projects\Win32\Client\DLL_P\RAR_Ext.obj : c:\Dev\Dev&
+_Soft\UnpLibr\Projects\Win32\Eng_Both\RAR\RAR_Ext.cpp .AUTODEPEND
+ @c:
+ cd c:\Dev\Dev_Soft\UnpLibr\Projects\Win32\Client\DLL_P
+ *wpp386 ..\..\Eng_Both\RAR\RAR_Ext.cpp -i="C:\WATCOM/h;C:\WATCOM/h/nt" -w4 &
+-e25 -zq -od -d2 -bd -6r -bt=nt -fo=.obj -mf -xs -xr
+
+c:\Dev\Dev_Soft\UnpLibr\Projects\Win32\Client\DLL_P\PlainDir.obj : c:\Dev\De&
+v_Soft\UnpLibr\Projects\Win32\Eng_Both\RAW\PlainDir.cpp .AUTODEPEND
+ @c:
+ cd c:\Dev\Dev_Soft\UnpLibr\Projects\Win32\Client\DLL_P
+ *wpp386 ..\..\Eng_Both\RAW\PlainDir.cpp -i="C:\WATCOM/h;C:\WATCOM/h/nt" -w4&
+ -e25 -zq -od -d2 -bd -6r -bt=nt -fo=.obj -mf -xs -xr
+
+c:\Dev\Dev_Soft\UnpLibr\Projects\Win32\Client\DLL_P\UnpLibrD.obj : c:\Dev\De&
+v_Soft\UnpLibr\Projects\Win32\Client\DLL_P\UnpLibrD.cpp .AUTODEPEND
+ @c:
+ cd c:\Dev\Dev_Soft\UnpLibr\Projects\Win32\Client\DLL_P
+ *wpp386 UnpLibrD.cpp -i="C:\WATCOM/h;C:\WATCOM/h/nt" -w4 -e25 -zq -od -d2 -&
+bd -6r -bt=nt -fo=.obj -mf -xs -xr
+
+c:\Dev\Dev_Soft\UnpLibr\Projects\Win32\Client\DLL_P\UnpLibr.dll : c:\Dev\Dev&
+_Soft\UnpLibr\Projects\Win32\Client\DLL_P\RAR_Ext.obj c:\Dev\Dev_Soft\UnpLib&
+r\Projects\Win32\Client\DLL_P\PlainDir.obj c:\Dev\Dev_Soft\UnpLibr\Projects\&
+Win32\Client\DLL_P\UnpLibrD.obj .AUTODEPEND
+ @c:
+ cd c:\Dev\Dev_Soft\UnpLibr\Projects\Win32\Client\DLL_P
+ @%write UnpLibr.lk1 FIL RAR_Ext.obj,PlainDir.obj,UnpLibrD.obj
+ @%append UnpLibr.lk1 
+!ifneq BLANK ""
+ *wlib -q -n -b UnpLibr.imp 
+ @%append UnpLibr.lk1 LIBR UnpLibr.imp
+!endif
+!ifneq BLANK ""
+ @%append UnpLibr.lk1 
+!endif
+ *wlink name UnpLibr d all sys nt_dll op m op maxe=25 op q op symf @UnpLibr.&
+lk1
+ wlib -q -n -b UnpLibr.lib +UnpLibr.dll
+

@@ -1,0 +1,17 @@
+..\..\Eng_Both\RAR\RAR_Ext.cpp(71): Warning! W128: col(48) initializer for variable 'B' cannot be bypassed
+..\..\Eng_Both\RAR\RAR_Ext.cpp(59): Note! N392: col(37) definition: 'int B' in 'int stdcall WinUnRAR_via_Extrenal_DLL_Inner_Functions::Callback( unsigned, long, long, long )'
+..\..\Eng_Both\RAR\RAR_Ext.cpp(74): Warning! W013: col(25) unreachable code
+..\..\Eng_Both\RAR\RAR_Ext.cpp(75): Warning! W128: col(54) initializer for variable 'B' cannot be bypassed
+..\..\Eng_Both\RAR\RAR_Ext.cpp(59): Note! N392: col(37) definition: 'int B' in 'int stdcall WinUnRAR_via_Extrenal_DLL_Inner_Functions::Callback( unsigned, long, long, long )'
+..\..\Eng_Both\RAR\RAR_Ext.cpp(78): Warning! W128: col(33) initializer for variable 'B' cannot be bypassed
+..\..\Eng_Both\RAR\RAR_Ext.cpp(59): Note! N392: col(37) definition: 'int B' in 'int stdcall WinUnRAR_via_Extrenal_DLL_Inner_Functions::Callback( unsigned, long, long, long )'
+..\..\Eng_Both\RAR\RAR_Ext.cpp(99): Warning! W391: col(29) assignment found in boolean expression
+..\..\Eng_Both\RAR\RAR_Ext.cpp(101): Warning! W391: col(32) assignment found in boolean expression
+..\..\Eng_Both\RAR\RAR_Ext.cpp(103): Warning! W391: col(32) assignment found in boolean expression
+..\..\Eng_Both\RAR\RAR_Ext.cpp(105): Warning! W391: col(32) assignment found in boolean expression
+..\..\Eng_Both\RAR\RAR_Ext.cpp(107): Warning! W391: col(32) assignment found in boolean expression
+..\..\Eng_Both\RAR\RAR_Ext.cpp(109): Warning! W391: col(23) assignment found in boolean expression
+..\..\Eng_Both\RAR\RAR_Ext.cpp(133): Warning! W391: col(33) assignment found in boolean expression
+..\..\Eng_Both\RAR\RAR_Ext.cpp(153): Warning! W391: col(33) assignment found in boolean expression
+..\..\Eng_Both\RAR\RAR_Ext.cpp(163): Warning! W391: col(55) assignment found in boolean expression
+..\..\Eng_Both\RAR\RAR_Ext.cpp(246): Warning! W869: col(22) use of '_beginthread' requires build target to be multi-threaded

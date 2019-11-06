@@ -1,0 +1,5 @@
+Think twice before changing something in the thread sync. It's powered by a minimalistic, extremly fast non-blocking algorithm.
+I really do hope I've predicted all thread state combinations possible, and written proper reactions.
+I've heard enough "herp derp it can't work you didn't take any safety measures with tons of critical sections" to write this warning.
+There is a tiny chance I've actually missed something :( but this is the heart of the unpacker. It's written once and can be used in any module.
+So the only good way to write it is to put lots of effort, making a state-of-art lock-free monster.

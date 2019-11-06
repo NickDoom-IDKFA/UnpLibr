@@ -1,0 +1,4 @@
+This directory contains generic sources for parsing non-compressed archive formats (e. g. ISO, or TAR, or WAD).
+They don't directly work with disk, so they can (and must) be multiplatform.
+They receive uncompressed data from non-archive compression formats (e. g. .GZ, or .XZ) and provide extracted files.
+Of course, all callers (decompression/caching engines) and archive parsers must be compatible.
